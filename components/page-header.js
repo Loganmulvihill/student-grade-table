@@ -4,6 +4,8 @@ this.headerElement = headerElement;
   }
 
   updateAverage(newAverage) {
-    console.log(newAverage);
+    var badgeElement = this.headerElement.querySelector('.badge');
+    console.log(badgeElement);
+    badgeElement.textContent = newAverage;
   }
 }
