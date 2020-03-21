@@ -4,7 +4,6 @@ class GradeTable {
   }
 
   updateGrades(grades){
-    // console.log(grades);
     var table = this.tableElement.querySelector('tbody');
     table.innerHTML = '';
     console.log(table);
@@ -25,7 +24,7 @@ class GradeTable {
       tr.appendChild(td3);
 
       table.appendChild(tr);
-console.log(grades);
+// console.log(grades);
     }
 
 
