@@ -1,4 +1,5 @@
 class GradeTable {
+
   constructor(tableElement){
     this.tableElement = tableElement;
   }
@@ -24,9 +25,11 @@ class GradeTable {
       tr.appendChild(td3);
 
       table.appendChild(tr);
-// console.log(grades);
     }
-
-
   }
+
+  onDeleteClick(deleteGrade){
+    this.deleteGrade = deleteGrade;
+  }
+
 }
