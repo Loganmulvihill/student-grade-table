@@ -18,9 +18,9 @@ class GradeTable {
 
     }
 
-      if(grades.length < 0) {
+      if(grades.length<=0) {
         pElement.classList.remove("d-none")
-      } else if (grades.length >= 0){
+      } else {
         pElement.classList.add("d-none")
       }
 
