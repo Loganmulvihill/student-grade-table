@@ -1,7 +1,7 @@
 var form = document.querySelector('form');
 var gradeForm = new GradeForm(form);
 var table = document.querySelector('table');
-var pElement = document.querySelector("no-grades-text");
+var pElement = document.querySelector('p');
 var gradeTable = new GradeTable(table, pElement);
 var header = document.querySelector('header');
 
