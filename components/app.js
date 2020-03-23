@@ -21,7 +21,6 @@ class App {
       total += grades[i].grade
     }
     var average = total/grades.length;
-    // console.log(average);
     this.pageHeader.updateAverage(average);
   }
 
@@ -37,9 +36,7 @@ class App {
 
   start() {
     this.getGrades();
-    // this.createGrade;
     this.gradeForm.onSubmit(this.createGrade);
-    // this.createGrade = this.gradeForm.onSubmit();
   }
 
 
